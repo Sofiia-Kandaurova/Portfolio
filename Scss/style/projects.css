@@ -1,0 +1,108 @@
+/* .project-hero-section{
+    position: relative;
+    z-index: -1;
+}
+
+.project-bg-img{
+    width: 360px;
+    height: 302px;
+} */
+
+
+.project-hero-section{
+    background-size: cover;
+    background-position: 100% 100%;
+    min-width: 100%;
+    background-image: url(../../img/hero-bg-360px.jpg);
+}
+
+@media (min-width: 768px){
+.project-hero-section {
+    background-size: cover;
+    background-position: 100% 100%;
+    min-width: 100%;
+    background-image: url(../../img/Hero-bg-PC.jpg);
+    }
+}
+
+@media (min-width: 1280px) {
+    .project-hero-section {
+        background-size: cover;
+        background-position: 100% 100%;
+        min-height: 100%;
+        max-width: 1280px;
+        padding-bottom: 93px;
+        padding-top: 420px;
+        background-position: top center;
+        background-image: url(../../img/Hero-bg-PC.jpg);
+    }
+}
+
+.project-hero-title{
+    font: 700 28px 'Montserrat';
+    color: var(--bg-color);
+    padding-left: 30px;
+    margin-bottom: 18px;
+}
+
+@media (min-width: 768px) {
+    .project-hero-title {
+            font: 700 48px 'Montserrat';
+            color: var(--bg-color);
+            padding-left: 40px;
+            margin-bottom: 18px;
+        }
+}
+
+@media (min-width: 1280px) {
+    .project-hero-title {
+            font: 700 54px 'Montserrat';
+            color: var(--bg-color);
+            padding-left: 142px;
+            margin-bottom: 12px;
+        }
+}
+
+.project-hero-btn{
+    width: 91px;
+    height: 39px;
+    border-radius: 10px;
+    opacity: 80%;
+    margin-left: 30px;
+    font: 400 12px "Comfortaa";
+    text-align: center;
+    color: var(--bg-color);
+    background-color: var(--accent-color);
+}
+
+@media (min-width: 768px) {
+    .project-hero-btn {
+            width: 120px;
+            height: 47px;
+            border-radius: 10px;
+            opacity: 80%;
+            margin-left: 30px;
+            font: 400 15px "Comfortaa";
+            text-align: center;
+            color: var(--bg-color);
+            background-color: var(--accent-color);
+        }
+}
+
+@media (min-width: 1280px) {
+    .project-hero-btn {
+            width: 155px;
+            height: 53px;
+            border-radius: 10px;
+            opacity: 80%;
+            margin-left: 155px;
+            font: 400 18px "Comfortaa";
+            text-align: center;
+            color: var(--bg-color);
+            background-color: var(--accent-color);
+        }
+}
+
+
+
+

@@ -1,0 +1,173 @@
+:root {
+    --bg-color: #f0f0f0;
+    --accent-color: #d72c16;
+    --text-color: #1b1d1f;
+    --font-family: "firstTimeWriting", sans-serif;
+    --transition-ms: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+    font-family: var(--font-family);
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1b1d1f;
+}
+
+section,
+footer,
+header {
+    background-color: var(--bg-color);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: var(--bg-color);
+    border-bottom: 1px solid var(--text-color);
+}
+
+.header-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header-name {
+    font: 400 20px var(--font-family);
+    text-align: center;
+    margin-right: auto;
+    color: var(--accent-color);
+}
+
+.header-name:hover {
+    font: 400 20px var(--font-family);
+    text-align: center;
+    margin-right: auto;
+    color: var(--text-color);
+    transition: var(--transition-ms);
+}
+
+.header-nav {
+    display: none;
+}
+
+.header-modal-open-btn {
+    display: block;
+}
+
+.header-nav-list{
+    display: flex;
+    gap: 24px;
+}
+
+.header-nav-links-active{
+    font: 400 22px var(--font-family);
+    text-align: center;
+    color: var(--accent-color);
+}
+
+.header-nav-links-active:hover {
+    font: 400 22px var(--font-family);
+    text-align: center;
+    color: var(--text-color);
+    transition: var(--transition-ms);
+}
+
+.header-nav-links{
+    font: 400 20px var(--font-family);
+    text-align: center;
+    color: var(--text-color);
+}
+
+.header-nav-links:hover {
+    font: 400 20px var(--font-family);
+    text-align: center;
+    color: var(--accent-color);
+}
+
+
+
+@media (min-width: 768px) {
+    body {
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 80%px;
+    }
+
+    header {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .header-logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .header-name {
+        font: 400 30px var(--font-family);
+        text-align: center;
+        margin-right: auto;
+        color: var(--accent-color);
+    }
+
+        .header-name:hover {
+            font: 400 34px var(--font-family);
+            text-align: center;
+            margin-right: auto;
+            color: var(--text-color);
+            transition: var(--transition-ms);
+        }
+
+
+}
+
+@media (min-width: 1280px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    header {
+        
+        justify-content: center;
+        width: 100%;
+    }
+
+    .header-logo {
+        width: 88px;
+        height: 88px;
+    }
+
+    .header-name {
+        font: 400 36px var(--font-family);
+        text-align: center;
+        margin-right: auto;
+        color: var(--accent-color);
+    }
+
+        .header-name:hover{
+            font: 400 38px var(--font-family);
+            text-align: center;
+            margin-right: auto;
+            color: var(--text-color);
+            transition: var(--transition-ms);
+        }
+
+    .header-nav {
+        display: flex;
+    }
+
+    .header-modal-open-btn {
+        display: none;
+    }
+
+
+}
