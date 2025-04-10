@@ -1,0 +1,273 @@
+
+.project-projects-weapons-javelin-img{
+    width: 300px;
+    height: 300px;
+}
+
+.project-projects-weapons-img-main{
+    width: 300px;
+    height: 300px;
+}
+
+.project-projects-weapons-shell-li{
+    width: 300px;
+    height: 300px;
+}
+
+.project-projects-section{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.project-projects-title{
+    width: 300px;
+    font: 400 40px var(--font-family);
+    text-align: center;
+    color: var(--accent-color);
+    margin-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--text-color);
+
+}
+
+@media (min-width: 768px) {
+      .project-projects-title{
+    width: 708px;
+    font: 400 52px var(--font-family);
+    text-align: center;
+    margin-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--accent-color);
+    border-bottom: 1px solid var(--text-color);
+
+}
+
+}
+
+@media (min-width: 1280px) {
+     .project-projects-title{
+    width: 1220px;
+    font: 400 72px var(--font-family);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 62px;
+    color: var(--accent-color);
+    border-bottom: 1px solid var(--text-color);
+
+}
+
+}
+
+.project-projects-lykhachiv-title{
+margin-bottom: 22px;
+    font: 400 24px var(--font-family);
+    letter-spacing: 0.05em;
+    color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+    .project-projects-lykhachiv-title {
+    margin-bottom: 22px;
+        font: 400 32px var(--font-family);
+        letter-spacing: 0.05em;
+        color: var(--text-color);
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .project-projects-lykhachiv-title {
+        margin-bottom: 32px;
+        font: 400 48px var(--font-family);
+        letter-spacing: 0.05em;
+        color: var(--text-color); 
+    }
+
+}
+
+.project-projects-lykhachiv-info-li{
+    display: block;
+    margin-bottom: 28px;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .project-projects-lykhachiv-info-li {
+            display: flex;
+            margin-bottom: 28px;
+            justify-content: center;
+        }
+}
+
+@media (min-width: 1280px) {
+    .project-projects-lykhachiv-info-li {
+            display: flex;
+            margin-bottom: 39px;
+            justify-content: center;
+        }
+
+}
+
+.project-projects-lykhachiv-info-txt{
+    font: 400 15px var(--font-family);
+    color: var(--text-color);
+    width: 293px;
+    margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+    .project-projects-lykhachiv-info-txt {
+            font: 400 18px var(--font-family);
+            color: var(--text-color);
+            width: 272px;
+            margin-right: 13px;
+        }
+}
+
+@media (min-width: 1280px) {
+    .project-projects-lykhachiv-info-txt {
+            font: 400 24px var(--font-family);
+            color: var(--text-color);
+            width: 386px;
+            margin-right: 80px;
+        }
+
+}
+
+.project-projects-lykhachiv-info-img{
+    width: 299px;
+    height: 177px;
+}
+
+@media (min-width: 768px) {
+    .project-projects-lykhachiv-info-img {
+    width: 416px;
+    height: 261px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .project-projects-lykhachiv-info-img {
+    width: 640px;
+    height: 331px;
+    }
+
+}
+
+.project-projects-lykhachiv-info-li-2{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .project-projects-lykhachiv-info-li-2 {
+            display: flex;
+        }
+}
+
+.project-projects-lykhachiv-info-img-2 {
+    width: 299px;
+    height: 177px;
+}
+
+@media (min-width: 768px) {
+    .project-projects-lykhachiv-info-img-2 {
+        width: 416px;
+        margin-right: 60px;
+        height: 261px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .project-projects-lykhachiv-info-img-2 {
+        width: 640px;
+        margin-right: 80px;
+        height: 331px;
+    }
+
+}
+
+.project-projects-lykhachiv-info-txt-2 {
+    font: 400 15px var(--font-family);
+    color: var(--text-color);
+    width: 293px;
+}
+
+@media (min-width: 768px) {
+    .project-projects-lykhachiv-info-txt-2 {
+        font: 400 18px var(--font-family);
+        color: var(--text-color);
+        width: 272px;
+        text-align: right;
+    }
+}
+
+@media (min-width: 1280px) {
+    .project-projects-lykhachiv-info-txt-2 {
+        font: 400 24px var(--font-family);
+        color: var(--text-color);
+        width: 386px;
+        text-align: right;
+    }
+
+}
+
+.project-projects-lykhachiv-info-li-mob{
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .project-projects-lykhachiv-info-li-mob {
+            display: none;
+        }
+
+}
+
+.project-projects-lykhachiv-main-img{
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    .project-projects-lykhachiv-main-img {
+            width: 708px;
+        }
+
+}
+
+@media (min-width: 1280px) {
+    .project-projects-lykhachiv-main-img {
+            width: 1220px;
+        }
+}
+
+.project-projects-lykhachiv-info{
+    justify-content: center;
+}
+
+.project-projects-lykhachiv-info-txt-2-mob{
+        font: 400 15px var(--font-family);
+        text-align: right;
+        margin-bottom: 8px;
+        color: var(--text-color);
+}
+
+.project-projects-lykhachiv-info-img-2-mob{
+    width: 299px;
+    height: 177px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

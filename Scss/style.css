@@ -1,7 +1,11 @@
 @import url(./reset.css);
 @import url(./main.css);
-@import url(./style/projects.css);
-@import url(./style/biography.css);
+@import url(./style/projectStyle/hero.css);
+@import url(./style/projectStyle/lykhachiv.css);
+@import url(./style/projectStyle/weapons.css);
+@import url(./style/biodraphy/biography.css);
+@import url(./style/biodraphy/cv.css);
+@import url(./style/biodraphy/info.css);
 @import url(./style/gallery.css);
 @import url(./style/contact.css);
 @import url(./style/modal.css);

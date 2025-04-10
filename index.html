@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sofiia Kandaurova</title>
-    <link rel="stylesheet" href="./Scss/style.css" />
+    <link rel="stylesheet" type="text/css" href="./Scss/style.css" />
   </head>
   <body>
     <header>
-      <img src="./img/logo.svg" alt="logo" class="header-logo" />
+      <div class="header-box">
+        <img src="./img/logo.svg" alt="logo" class="header-logo" />
       <a href="./index.html" class="header-name">Sofiia Kandaurova</a>
 
       <nav class="header-nav">
@@ -42,14 +43,13 @@
       <button type="button" class="header-modal-open-btn">
         <img src="./img/modal-open-svg.svg" alt="modal-open" class="header-modal-open-svg" />
       </button>
+      </div>
+      
     </header>
 
     <main>
       <section class="project-hero-section">
-        <!-- <picture class="project-bg-img">
-          <source srcset="../img/Hero-bg-PC.jpg" media="(min-width: 768px)" />
-          <source srcset="../img/hero-bg-360px.jpg" media="(max-width: 767px)" />
-        </picture> -->
+        <img src="./img/Hero-bg-PC.jpg" alt="" class="project-hero-img">
         <h1 class="project-hero-title">Tripillia style works</h1>
         <a href="./html/gallery.html">
           <button class="project-hero-btn">View more</button>
@@ -71,7 +71,7 @@
             <img src="./img/mural2.JPG" alt="" class="project-projects-lykhachiv-info-img" />
           </li>
 
-          <li class="project-projects-lykhachiv-info-li">
+          <li class="project-projects-lykhachiv-info-li project-projects-lykhachiv-info-li-2">
             <img src="./img/mural3.JPG" alt="" class="project-projects-lykhachiv-info-img-2" />
             <p class="project-projects-lykhachiv-info-txt-2">
               The war poses many challenges to Ukrainian communities, not the least of which is the
@@ -80,6 +80,18 @@
               the Chernihiv region, a lyceum that was once built according to the ancient technology
               of wattle and daub huts is being restored. rubryka explores how this happens and what
             </p>
+          </li>
+
+          <li class="project-projects-lykhachiv-info-li project-projects-lykhachiv-info-li-mob">
+            
+            <p class="project-projects-lykhachiv-info-txt-2-mob">
+              The war poses many challenges to Ukrainian communities, not the least of which is the
+              destruction of homes, hospitals, and schools. However, communities are not giving up
+              and are already setting up their recovery. For example, in the Mrynska community in
+              the Chernihiv region, a lyceum that was once built according to the ancient technology
+              of wattle and daub huts is being restored. rubryka explores how this happens and what
+            </p>
+            <img src="./img/mural3.JPG" alt="" class="project-projects-lykhachiv-info-img-2-mob" />
           </li>
 
           <li class="project-projects-lykhachiv-info-li">
@@ -112,10 +124,6 @@
         <img src="./img/javelin2.jpg" alt="" class="project-projects-weapons-img-main"/>
         </div>
     
-        
-        
-        
-
         <h4 class="project-projects-weapons-shell-title">Shell casing</h4>
         <ul class="project-projects-weapons-shell-list">
           <li class="project-projects-weapons-shell-li"><img class="project-projects-weapons-shell-li" src="./img/javelin2.jpg" alt="" /></li>
