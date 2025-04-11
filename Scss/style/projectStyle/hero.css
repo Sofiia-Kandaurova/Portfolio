@@ -1,6 +1,6 @@
 .project-hero-section{
    position: relative;
-   width: 520px;
+   width: 360px;
    margin-left: auto;
    height: 302px;
    margin-right: auto;
@@ -11,7 +11,7 @@
 @media (min-width: 768px) {
     .project-hero-section {
             position: relative;
-            width: 950px;
+            width: 768px;
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 60px;
@@ -23,7 +23,7 @@
 @media (min-width: 1280px) {
     .project-hero-section {
             position: relative;
-            width: 1600px;
+            width: 1280px;
             justify-content: center;
             height: 600px;
             margin-left: auto;

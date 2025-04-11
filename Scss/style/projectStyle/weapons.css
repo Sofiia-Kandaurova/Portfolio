@@ -1,0 +1,257 @@
+.project-projects-weapons-div {
+    margin-top: 56px;
+    margin-bottom: 34px;
+    justify-content: center;
+    padding-top: 32px;
+    width: 300px;
+    border-top: 1px solid var(--text-color);
+}
+
+@media (min-width: 768px) {
+    .project-projects-weapons-div {
+        margin-top: 64px;
+        margin-bottom: 40px;
+        justify-content: center;
+        width: 708px;
+        padding-top: 64px;
+        display: flex;
+        flex-direction: row-reverse;
+        border-top: 1px solid var(--text-color);
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .project-projects-weapons-div {
+        margin-top: 68px;
+        margin-bottom: 44px;
+        justify-content: center;
+        width: 1200px;
+        padding-top: 68px;
+        display: flex;
+        flex-direction: row-reverse;
+        border-top: 1px solid var(--text-color);
+    }
+}
+
+.project-projects-weapons-img-main {
+    width: 216px;
+    height: 275px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 42px;
+}
+
+@media (min-width: 768px) {
+    .project-projects-weapons-img-main {
+        width: 271px;
+        height: 383px;
+        margin-right: 70px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .project-projects-weapons-img-main {
+        width: 386px;
+        height: 600px;
+        margin-right: 64px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
+.project-projects-weapons-title {
+    font: 400 32px var(--font-family);
+    letter-spacing: 0.05em;
+    text-align: right;
+    margin-bottom: 12px;
+    color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+    .project-projects-weapons-title {
+        font: 400 32px var(--font-family);
+        letter-spacing: 0.05em;
+        text-align: right;
+        margin-bottom: 12px;
+        color: var(--text-color);
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .project-projects-weapons-title {
+        font: 400 32px var(--font-family);
+        letter-spacing: 0.05em;
+        text-align: right;
+        margin-bottom: 22px;
+        color: var(--text-color);
+    }
+}
+
+.project-projects-weapons-javelin-title {
+    font: 400 24px var(--font-family);
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+    color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+    .project-projects-weapons-javelin-title {
+        font: 400 24px var(--font-family);
+        letter-spacing: 0.05em;
+        text-align: right;
+        margin-bottom: 12px;
+        color: var(--text-color);
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .project-projects-weapons-javelin-title {
+        font: 400 40px var(--font-family);
+        letter-spacing: 0.05em;
+        text-align: right;
+        margin-bottom: 20px;
+        color: var(--text-color);
+    }
+}
+
+.project-projects-weapons-javelin-txt {
+    font: 400 15px var(--font-family);
+    color: var(--text-color);
+    margin-bottom: 16px;
+}
+
+
+
+@media (min-width: 768px) {
+    .project-projects-weapons-javelin-txt {
+        font: 400 16px var(--font-family);
+        text-align: right;
+        color: var(--text-color);
+        margin-bottom: 22px;
+        width: 322px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .project-projects-weapons-javelin-txt {
+        font: 400 24px var(--font-family);
+        text-align: right;
+        color: var(--text-color);
+        margin-bottom: 30px;
+        width: 495px;
+        margin-left: auto;
+    }
+}
+
+.project-projects-weapons-javelin-img {
+    width: 275px;
+    height: 153px;
+}
+
+@media (min-width: 768px) {
+    .project-projects-weapons-javelin-img {
+        width: 320px;
+        height: 180px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .project-projects-weapons-javelin-img {
+        width: 528px;
+        height: 324px;
+    }
+}
+
+.project-projects-weapons-shell-title {
+    font: 400 24px var(--font-family);
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+    .project-projects-weapons-shell-title {
+        font: 400 40px var(--font-family);
+        letter-spacing: 0.05em;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 44px;
+        margin-left: auto;
+        margin-right: auto;
+        color: var(--text-color);
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .project-projects-weapons-shell-title {
+        font: 400 40px var(--font-family);
+        letter-spacing: 0.05em;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 44px;
+        margin-bottom: 44px;
+        color: var(--text-color);
+    }
+}
+
+.project-projects-weapons-shell-list {
+    display: block;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+    .project-projects-weapons-shell-list {
+        display: flex;
+        margin-bottom: 90px;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1280px) {
+    .project-projects-weapons-shell-list {
+        display: flex;
+        margin-bottom: 105px;
+        justify-content: space-around;
+    }
+}
+
+.project-projects-weapons-shell-li {
+    width: 200px;
+    height: 405px;
+    margin-bottom: 28px;
+}
+
+@media (min-width: 768px) {
+    .project-projects-weapons-shell-li {
+        width: 150px;
+        height: 304px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .project-projects-weapons-shell-li {
+        width: 232px;
+        height: 470px;
+        margin-bottom: 0;
+    }
+}
+
+.invisible {
+    display: none;
+}

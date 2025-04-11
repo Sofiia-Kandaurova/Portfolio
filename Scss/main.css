@@ -215,6 +215,133 @@ header{
 
 }
 
+.project-footer {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .project-footer {
+        display: flex;
+        width: 708px;
+        align-items: flex-end;
+        padding-bottom: 24px;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1280px) {
+    .project-footer {
+        display: flex;
+        width: 1220px;
+        align-items: flex-end;
+        padding-bottom: 24px;
+        justify-content: space-between;
+    }
+}
+
+.project-footer-txt {
+    font: 400 16px var(--font-family);
+    letter-spacing: 0.05em;
+    color: var(--accent-color);
+    margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+    .project-footer-txt {
+        font: 400 20px var(--font-family);
+        letter-spacing: 0.05em;
+        color: var(--accent-color);
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .project-footer-txt {
+        font: 400 24px var(--font-family);
+        letter-spacing: 0.05em;
+        margin-bottom: 0;
+        color: var(--accent-color);
+    }
+}
+
+.button-footer {
+    width: 129px;
+    height: 45px;
+    font: 400 16px var(--font-family);
+    text-align: center;
+    color: var(--bg-color);
+    border-radius: 10px;
+    background-color: var(--accent-color);
+    transition: var(--transition-ms);
+}
+
+.button-footer:hover {
+    color: var(--accent-color);
+    background-color: var(--bg-color);
+    border: 1px solid var(--accent-color);
+    transition: var(--transition-ms);
+}
+
+@media (min-width: 768px) {
+    .button-footer {
+        width: 108px;
+        height: 41px;
+        font: 400 16px var(--font-family);
+        text-align: center;
+        background-color: var(--accent-color);
+        color: var(--bg-color);
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .button-footer {
+        width: 169px;
+        height: 59px;
+        font: 400 24px var(--font-family);
+        text-align: center;
+        background-color: var(--accent-color);
+        color: var(--bg-color);
+        border-radius: 10px;
+    }
+}
+
+.footer-logo {
+    width: 45px;
+    height: 45px;
+    margin-right: 16px;
+    align-items: flex-end;
+}
+
+@media (min-width: 768px) {
+    .footer-logo {
+        width: 55px;
+        height: 55px;
+        margin-right: 225px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer-logo {
+        width: 88px;
+        height: 88px;
+        margin-right: 410px;
+    }
+}
+
+.footer-box {
+    align-items: flex-end;
+    display: flex;
+}
+
+.invisible {
+    display: none;
+}
+
 
 
 
