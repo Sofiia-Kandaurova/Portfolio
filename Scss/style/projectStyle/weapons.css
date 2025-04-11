@@ -210,7 +210,7 @@
 
 .project-projects-weapons-shell-list {
     display: block;
-    justify-content: center;
+    padding-left: 50px;
     margin-bottom: 48px;
 }
 
@@ -218,6 +218,7 @@
     .project-projects-weapons-shell-list {
         display: flex;
         margin-bottom: 90px;
+        padding-left: 0;
         justify-content: space-around;
     }
 }
@@ -225,6 +226,7 @@
 @media (min-width: 1280px) {
     .project-projects-weapons-shell-list {
         display: flex;
+        padding-left: 0;
         margin-bottom: 105px;
         justify-content: space-around;
     }
