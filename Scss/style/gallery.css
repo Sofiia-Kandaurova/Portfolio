@@ -1,0 +1,101 @@
+.gallery-section {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 360px;
+    height: 360px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+@media (min-width: 768px) {
+    .gallery-section {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 744px;
+        height: 744px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .gallery-section {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 700px;
+        height: 600px;
+        margin-top: 0;
+        margin-bottom: 35px;
+    }
+}
+
+.gallery-bg-img {
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    z-index: -2;
+    filter: blur(3px);
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+    .gallery-bg-img {
+        width: 744px;
+        height: 744px;
+        position: absolute;
+        z-index: -2;
+        filter: blur(6px);
+        opacity: 0.8;
+    }
+}
+
+@media (min-width: 1280px) {
+    .gallery-bg-img {
+        width: 700px;
+        height: 600px;
+        position: absolute;
+        z-index: -2;
+        filter: blur(8px);
+        opacity: 0.8;
+    }
+}
+
+.gallery-txt {
+    font: 400 24px var(--font-family);
+    text-align: center;
+    -webkit-text-stroke: 0.5px var(--accent-color);
+    color: var(--accent-color);
+}
+
+@media (min-width: 768px) {
+    .gallery-txt {
+        font: 400 32px var(--font-family);
+        text-align: center;
+        -webkit-text-stroke: 0.5px var(--accent-color);
+        color: var(--accent-color);
+    }
+}
+
+@media (min-width: 1280px) {
+    .gallery-txt {
+        font: 400 36px var(--font-family);
+        text-align: center;
+        -webkit-text-stroke: 0.5px var(--accent-color);
+        color: var(--accent-color);
+    }
+}

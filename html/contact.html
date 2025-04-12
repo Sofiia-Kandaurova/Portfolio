@@ -8,40 +8,42 @@
   </head>
   <body>
     <header>
-      <img src="../img/logo.svg" alt="logo" class="header-logo" />
-      <a href="../index.html" class="header-name">Sofiia Kandaurova</a>
+      <div class="header-box">
+        <img src="../img/logo.svg" alt="logo" class="header-logo" />
+        <a href="../index.html" class="header-name">Sofiia Kandaurova</a>
 
-      <nav class="header-nav">
-        <ul class="header-nav-list">
-          <li>
-            <button type="button">
-              <a href="../index.html" class="header-nav-links">project</a>
-            </button>
-          </li>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li>
+              <button type="button">
+                <a href="../index.html" class="header-nav-links">project</a>
+              </button>
+            </li>
 
-          <li>
-            <button type="button">
-              <a href="../html/biography.html" class="header-nav-links">biography</a>
-            </button>
-          </li>
+            <li>
+              <button type="button">
+                <a href="../html/biography.html" class="header-nav-links">biography</a>
+              </button>
+            </li>
 
-          <li>
-            <button type="button">
-              <a href="../html/gallery.html" class="header-nav-links">gallery</a>
-            </button>
-          </li>
+            <li>
+              <button type="button">
+                <a href="../html/gallery.html" class="header-nav-links">gallery</a>
+              </button>
+            </li>
 
-          <li>
-            <button type="button">
-              <a href="../html/contact.html" class="header-nav-links-active">contact</a>
-            </button>
-          </li>
-        </ul>
+            <li>
+              <button type="button">
+                <a href="../html/contact.html" class="header-nav-links-active">contact</a>
+              </button>
+            </li>
+          </ul>
+        </nav>
 
         <button type="button" class="header-modal-open-btn">
           <img src="../img/modal-open-svg.svg" alt="modal-open" class="header-modal-open-svg" />
         </button>
-      </nav>
+      </div>
     </header>
 
     <main>
@@ -75,15 +77,25 @@
       </section>
     </main>
 
-    <footer class="project-footer"></footer>
+    <footer class="project-footer">
+      <p class="project-footer-txt">based in Kyoto</p>
+      <div class="footer-box">
+        <img src="../img/logo.svg" alt="logo" class="footer-logo" />
+        <a href="../index.html">
+          <button class="button-footer">return</button>
+        </a>
+      </div>
+    </footer>
 
-    <div class="modal">
+    <div class="modal invisible">
       <div class="modal-header">
-        <a href="../index.html"><img src="../img/logo.svg" alt="logo" class="header-logo" /></a>
+        <a href="../index.html"
+          ><img src="../img/logo.svg" alt="logo" class="header-logo-modal"
+        /></a>
         <a href="../index.html" class="header-name">Sofiia Kandaurova</a>
 
         <button class="modal-close">
-          <img src="../img/modal-close-svg.svg" alt="close svg" />
+          <img src="../img/modal-close-svg.svg" alt="close-svg" />
         </button>
       </div>
 

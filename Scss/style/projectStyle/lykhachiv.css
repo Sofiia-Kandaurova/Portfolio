@@ -98,7 +98,7 @@ margin-bottom: 22px;
 }
 
 .project-projects-lykhachiv-info-txt{
-    font: 400 13px var(--font-family);
+    font: 400 18px var(--font-family);
     color: var(--text-color);
     width: 293px;
     margin-bottom: 8px;
@@ -176,7 +176,7 @@ margin-bottom: 22px;
 }
 
 .project-projects-lykhachiv-info-txt-2 {
-    font: 400 13px var(--font-family);
+    font: 400 18px var(--font-family);
     color: var(--text-color);
     width: 293px;
 }
@@ -236,7 +236,7 @@ margin-bottom: 22px;
 }
 
 .project-projects-lykhachiv-info-txt-2-mob{
-        font: 400 13px var(--font-family);
+        font: 400 18px var(--font-family);
         text-align: right;
         margin-bottom: 8px;
         color: var(--text-color);
