@@ -1,0 +1,212 @@
+
+@media (max-width:1279px) {
+   .page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page>main {
+    flex: 1;
+} 
+}
+
+
+.contact-section{
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.contact-bg{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-bg-txt {
+    font: 400 100px var(--font-family);
+    text-align: center;
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+    top: 120px;
+    z-index: -3;
+    filter: blur(5px);
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+    .contact-bg-txt {
+            font: 400 236px var(--font-family);
+            text-align: center;
+            color: var(--accent-color);
+            position: absolute;
+            left: 0;
+            top: 100px;
+            z-index: -3;
+            filter: blur(7px);
+            opacity: 0.8;
+        }
+}
+
+@media (min-width: 1280px) {
+    .contact-bg-txt {
+    font: 400 390px var(--font-family);
+    text-align: center;
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -3;
+    filter: blur(10px);
+    opacity: 0.8;
+    }
+}
+
+.contact-list-li{
+    filter: blur(1px);
+    width: 30px;
+    height: 30px;
+    transition: var(--transition-ms);
+}
+
+.contact-list-li:hover {
+    filter: blur(1px);
+    width: 30px;
+    height: 33px;
+    transition: var(--transition-ms);
+}
+
+@media (min-width: 768px) {
+    .contact-list-li {
+            filter: blur(1px);
+            width:  50px;
+            height:  50px;
+            transition: var(--transition-ms);
+        }
+    
+        .contact-list-li:hover {
+            filter: blur(1px);
+            width:  50px;
+            height: 54px;
+            transition: var(--transition-ms);
+        }
+}
+
+@media (min-width: 1280px) {
+    .contact-list-li {
+            filter: blur(1px);
+            width: 72px;
+            height: 72px;
+            transition: var(--transition-ms);
+        }
+    
+        .contact-list-li:hover {
+            filter: blur(1px);
+            width: 72px;
+            height: 76px;
+            transition: var(--transition-ms);
+        }
+}
+
+.contact-tel{
+    font: 400 16px var(--font-family);
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--black-color);
+}
+
+@media (min-width: 768px) {
+    .contact-tel {
+            font: 400 32px var(--font-family);
+            text-align: center;
+            margin-bottom: 16px;
+            color: var(--black-color);
+        }
+}
+
+@media (min-width: 1280px) {
+    .contact-tel {
+            font: 400 48px var(--font-family);
+            text-align: center;
+            color: var(--black-color);
+        }
+}
+
+.contact-box{
+    display: block;
+    margin-bottom: 60px;
+    padding-top: 150px;
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    .contact-box {
+            display: block;
+            margin-bottom: 160px;
+            padding-top: 200px;
+            width: 708px;
+        }
+}
+
+@media (min-width: 1280px) {
+    .contact-box {
+            display: flex;
+            margin-bottom: 160px;
+            padding-top: 200px;
+            justify-content: space-around;
+            margin-left: auto;
+            margin-right: auto;
+            width: 1220px;
+        }
+}
+
+.contact-box-tel{
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+    .contact-box-tel {
+       margin-bottom: 16px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .contact-box-tel {
+        margin-bottom: 0;
+    }
+}
+
+.contact-list{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 33px;
+}
+
+@media (min-width: 768px) {
+    .contact-list {
+            display: flex;
+            width: 550px;
+            justify-content: space-between;
+            margin-left: auto;
+            margin-right: auto;
+            height: 54px;
+        }
+}
+
+@media (min-width: 1280px) {
+    .contact-list {
+            display: flex;
+            width: 834px;
+            justify-content: space-between;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 90px;
+            height: 76px;
+        }
+}
+
