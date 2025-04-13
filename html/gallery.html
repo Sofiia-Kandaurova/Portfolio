@@ -40,7 +40,7 @@
           </ul>
         </nav>
 
-        <button type="button" class="header-modal-open-btn">
+        <button type="button" class="header-modal-open-btn"  id="openModalBtn" >
           <img src="../../img/modal-open-svg.svg" alt="modal-open" class="header-modal-open-svg" />
         </button>
       </div>
@@ -63,15 +63,15 @@
 
     <div class="modal invisible">
       <div class="modal-header">
-        <a href="../../index.html"><img src="../img/logo.svg" alt="logo" class="header-logo-modal"
-        /></a>
+        <div class="header-box">
+        <a href="../../index.html"><img src="../img/logo.svg" alt="logo" class="header-logo"/></a>
         <a href="../../index.html" class="header-name">Sofiia Kandaurova</a>
 
-        <button class="modal-close">
-          <img src="../../img/modal-close-svg.svg" alt="close-svg" />
+        <button class="modal-close" id="closeModalBtn" type="button">
+          <img src="../../img/modal-close-svg.svg" alt="close-svg"/>
         </button>
       </div>
-
+      </div>
       <ul class="modal-list">
         <li class="modal-list-li">
           <a href="../index.html" class="modal-list-txt">Projects</a>
@@ -80,7 +80,6 @@
         <li class="modal-list-li">
           <a href="./biography.html" class="modal-list-txt">Biography</a>
         </li>
-
         <li class="modal-list-li">
           <a href="./gallery.html" class="modal-list-txt-active">Gallery</a>
         </li>
@@ -89,6 +88,9 @@
           <a href="./contact.html" class="modal-list-txt">Contact</a>
         </li>
       </ul>
+        
+        
     </div>
+    <script src="../js/modal.js"></script>
   </body>
 </html>
