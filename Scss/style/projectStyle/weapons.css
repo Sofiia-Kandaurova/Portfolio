@@ -28,21 +28,21 @@
      color: var(--accent-color);
       padding-top: 30px;
       border-top: 1px solid var(--text-color);
-      margin-bottom: 30px;
+      margin-bottom: 36px;
 }
 
 @media (min-width: 768px) {
     .project-projects-weapons-title {
-            font: 400 32px var(--font-family);
+            font: 400 36px var(--font-family);
             padding-top: 32px;
-            margin-bottom: 36px;
+            margin-bottom: 44px;
         }
 }
 
 
 @media (min-width: 1280px) {
     .project-projects-weapons-title {
-            font: 400 32px var(--font-family);
+            font: 400 48px var(--font-family);
             padding-top: 44px;
             margin-bottom: 44px;
         }
