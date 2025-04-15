@@ -1,0 +1,242 @@
+.biography-section-bg {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width:768px) {
+    .biography-section-bg {
+        width: 708px;
+    }
+}
+
+@media (min-width:1280px) {
+    .biography-section-bg {
+        width: 1220px;
+    }
+}
+
+.biography-section-bg-text {
+    text-align: center;
+    color: #828181;
+    margin-bottom: 28px;
+    font: 400 7px var(--font-family);
+}
+
+@media (min-width:768px) {
+    .biography-section-bg-text {
+        margin-top: 3px;
+        margin-bottom: 48px;
+        font: 400 12px var(--font-family);
+    }
+}
+
+
+@media (min-width:1280px) {
+    .biography-section-bg-text {
+        margin-top: 6px;
+        font: 400 15px var(--font-family);
+    }
+
+}
+
+.biography-title {
+    font: 400 40px var(--font-family);
+    text-align: center;
+    padding-bottom: 4px;
+    color: var(--accent-color);
+    width: 300px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid var(--text-color);
+}
+
+@media (min-width:768px) {
+    .biography-title {
+        font: 400 52px var(--font-family);
+        width: 708px;
+        margin-bottom: 32px;
+        padding-bottom: 6px;
+    }
+}
+
+
+@media (min-width:1280px) {
+    .biography-title {
+        font: 400 72px var(--font-family);
+        width: 1220px;
+        margin-bottom: 62px;
+    }
+
+}
+
+.biography-list {
+    display: block;
+}
+
+.biography-list-li {
+    display: block;
+    margin-bottom: 28px;
+}
+
+@media (min-width: 768px) {
+    .biography-list-li {
+        display: flex;
+        margin-bottom: 44px;
+        justify-content: space-between;
+    }
+}
+
+.biography-list-title {
+    font: 400 24px var(--font-family);
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .biography-list-title {
+        font: 400 40px var(--font-family);
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .biography-list-title {
+        font: 400 48px var(--font-family);
+        margin-bottom: 28px;
+    }
+
+}
+
+.biography-list-txt {
+    width: 300px;
+    font: 400 18px var(--font-family);
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .biography-list-txt {
+        width: 370px;
+        margin-bottom: 0;
+        font: 400 15px var(--font-family);
+        color: var(--text-color);
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .biography-list-txt {
+        width: 600px;
+        font: 400 23px var(--font-family);
+        color: var(--text-color);
+    }
+
+}
+
+.biography-list-img {
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    .biography-list-img {
+        width: 250px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .biography-list-img {
+        width: 400px;
+    }
+
+}
+
+.biography-list-li-2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (min-width: 768px) {
+    .biography-list-li-2 {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+}
+
+.biography-list-2-box{
+    order: 1;
+}
+
+.biography-list-img{
+    order: 2;
+}
+
+@media (min-width: 768px) {
+    .biography-list-2-box {
+            order: 2;
+        }
+    
+        .biography-list-img {
+            order: 1;
+        }
+
+}
+
+.biography-list-title-2 {
+    font: 400 24px var(--font-family);
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .biography-list-title-2 {
+        font: 400 40px var(--font-family);
+        text-align: right;
+        margin-bottom: 24px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .biography-list-title-2 {
+        font: 400 48px var(--font-family);
+        margin-bottom: 28px;
+    }
+
+}
+
+.biography-list-txt-2 {
+    width: 300px;
+    font: 400 18px var(--font-family);
+    color: var(--text-color);
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+@media (min-width: 768px) {
+    .biography-list-txt-2 {
+        width: 370px;
+        margin-bottom: 0;
+        font: 400 15px var(--font-family);
+        color: var(--text-color);
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .biography-list-txt-2 {
+        width: 630px;
+        font: 400 23px var(--font-family);
+        color: var(--text-color);
+    }
+
+}
