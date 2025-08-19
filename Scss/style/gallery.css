@@ -132,11 +132,7 @@
 
 
 
-@media (min-width:768px) {
-    .block-2023-art-img-block {
-            display: flex;
-        }
-}
+
 
 .block-2023-art-list{
    text-align: center;
@@ -175,7 +171,7 @@
 
 @media (min-width:1280px) {
     .gallery-photo-1 {
-            width: 640px;
+            width: 400px;
         }
 }
 
@@ -233,7 +229,7 @@
 
 @media (min-width:1280px) {
     .gallery-photo-2 {
-            width: 500px;
+            width: 380px;
         }
 }
 
@@ -252,7 +248,36 @@
 
 @media (min-width:1280px) {
     .gallery-photo-2-2 {
-        width: 500px;
+        width: 400px;
+    }
+}
+
+.DEEPER-PHOTO {
+    height: 190px;
+}
+
+@media (min-width:768px) {
+    .DEEPER-PHOTO {
+        
+        height: 445px;
+    }
+}
+
+/* .CHILDREN-PHOTO {
+    height: 190px;
+} */
+
+@media (min-width:768px) {
+    .CHILDREN-PHOTO {
+
+        height: 490px;
+    }
+}
+
+
+@media (min-width:1280px) {
+    .DEEPER-PHOTO {
+        height: 500px;
     }
 }
 
@@ -269,7 +294,24 @@
 
 @media (min-width:1280px) {
     .gallery-photo-3 {
+        width: 400px;
+    }
+}
+
+.gallery-photo-4 {
+    width: 280px;
+}
+
+@media (min-width:768px) {
+    .gallery-photo-4 {
         width: 700px;
+    }
+}
+
+
+@media (min-width:1280px) {
+    .gallery-photo-4 {
+        width: 600px;
     }
 }
 
@@ -290,7 +332,7 @@
 @media (min-width:768px) {
     .block-2023-art-img-block-5 {
             display: flex;
-            justify-content: space-between;
+            /* justify-content: space-between; */
     
         }
 }
@@ -308,10 +350,32 @@
         }
 }
 
-@media (min-width:1280px) {
-    .block-2023-art-img-block-5-help{
-        margin-right: auto;
+
+@media (min-width:768px) {
+    .block-2023-art-img-block-5-help-1 {
+        margin-right: 30px;
         margin-left: auto;
+    }
+}
+
+@media (min-width:768px) {
+    .block-2023-art-img-block-5-help-2 {
+        margin-right: auto;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width:1280px) {
+    .block-2023-art-img-block-5-help-1{
+        margin-right: 50px;
+        margin-left: auto;
+    }
+}
+
+@media (min-width:1280px) {
+    .block-2023-art-img-block-5-help-2 {
+        margin-right: auto;
+        margin-left: 50px;
     }
 }
 
