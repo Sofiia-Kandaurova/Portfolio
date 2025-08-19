@@ -112,7 +112,24 @@
 .block-2023-year-list{
     display: flex;
     gap: 20px;
-    
+    margin-bottom: 20px;
+}
+
+@media (min-width:768px) {
+    .block-2023-year-list {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 32px;
+        }
+}
+
+@media (min-width:1280px) {
+    .block-2023-year-list {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 32px;
+        }
+
 }
 
 .block-2023-title{
@@ -140,14 +157,14 @@
 }
 
 .block-2023-title-sec {
-    font: 400 14px var(--font-family);
-    margin-bottom: 36px;
+    font: 400 16px var(--font-family);
+    margin-bottom: 40px;
     transition: var(--transition-ms);
 }
 
 .block-2023-title-sec:focus,
 .block-2023-title-sec:hover {
-    font: 400 16px var(--font-family);
+    font: 400 18px var(--font-family);
     color: var(--accent-color);
     margin-bottom: 36px;
     transition: var(--transition-ms);
@@ -156,7 +173,7 @@
 @media (min-width:768px) {
     .block-2023-title-sec {
         font: 400 32px var(--font-family);
-        margin-bottom: 32px;
+        margin-bottom: 40px;
         transition: var(--transition-ms);
     }
 
@@ -173,7 +190,7 @@
 @media (min-width:1280px) {
     .block-2023-title-sec {
         font: 400 36px var(--font-family);
-        margin-bottom: 40px;
+        margin-bottom: 48px;
         transition: var(--transition-ms);
     }
 
