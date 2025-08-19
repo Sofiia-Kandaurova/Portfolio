@@ -133,7 +133,7 @@
 }
 
 .block-2023-title{
-  font: 400 24px var(--font-family);
+  font: 400 28px var(--font-family);
   color: var(--accent-color);
   margin-bottom: 36px;
   transition: var(--transition-ms);
@@ -157,7 +157,7 @@
 }
 
 .block-2023-title-sec {
-    font: 400 16px var(--font-family);
+    font: 400 20px var(--font-family);
     margin-bottom: 40px;
     transition: var(--transition-ms);
 }
