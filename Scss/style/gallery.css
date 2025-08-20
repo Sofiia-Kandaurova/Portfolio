@@ -162,13 +162,13 @@
     transition: var(--transition-ms);
 }
 
-.block-2023-title-sec:focus,
-.block-2023-title-sec:hover {
+/* .block-2023-title-sec:focus, */
+/* .block-2023-title-sec:hover {
     font: 400 18px var(--font-family);
     color: var(--accent-color);
     margin-bottom: 36px;
     transition: var(--transition-ms);
-}
+} */
 
 @media (min-width:768px) {
     .block-2023-title-sec {
@@ -177,13 +177,13 @@
         transition: var(--transition-ms);
     }
 
-        .block-2023-title-sec:focus,
+        /* .block-2023-title-sec:focus,
         .block-2023-title-sec:hover {
             font: 400 34px var(--font-family);
             color: var(--accent-color);
             margin-bottom: 36px;
             transition: var(--transition-ms);
-        }
+        } */
 }
 
 
