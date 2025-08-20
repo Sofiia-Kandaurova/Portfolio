@@ -285,6 +285,8 @@
 }
 
 
+
+
 @media (min-width:1280px) {
     .block-2023-art-dic {
         font: 400 20px var(--font-family);
@@ -502,7 +504,9 @@
 }
 
 
-
+.DOUBLE-PHOTO {
+    margin-bottom: 4px;
+}
 
 
 
