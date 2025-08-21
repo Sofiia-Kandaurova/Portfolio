@@ -157,7 +157,7 @@
 }
 
 .block-2023-title-sec {
-    font: 400 20px var(--font-family);
+    font: 400 16px var(--font-family);
     margin-bottom: 40px;
     transition: var(--transition-ms);
 }
@@ -189,7 +189,7 @@
 
 @media (min-width:1280px) {
     .block-2023-title-sec {
-        font: 400 36px var(--font-family);
+        font: 400 32px var(--font-family);
         margin-bottom: 48px;
         transition: var(--transition-ms);
     }
