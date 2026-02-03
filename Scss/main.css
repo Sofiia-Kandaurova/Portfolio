@@ -344,7 +344,7 @@ header{
 }
 
 
-.modal {
+.modal-ja {
     position: fixed;
     top: 0;
     left: 0;
@@ -357,19 +357,49 @@ header{
     z-index: 9999;
 }
 
-.modal-content {
-    background: #fff;
-    padding: 20px 30px;
-    border-radius: 10px;
-    max-width: 400px;
+.modal-content-ja {
+    background: var(--bg-color);
+    width: 300px;
+    height: 200px;
+    padding: 24px;
+    border-radius: 12px;
     text-align: center;
 }
 
-.modal button {
-    margin-top: 15px;
-    padding: 8px 16px;
-    cursor: pointer;
+.modal-text-ja{
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font: 400 28px var(--font-family);
 }
+
+.modal-btn-block{
+  display: flex;
+  gap: 50px;
+}
+
+.modal-btn-ja{
+    width: 129px;
+    height: 45px;
+    font: 400 20px var(--font-family);
+    text-align: center;
+    color: var(--bg-color);
+    border-radius: 10px;
+    background-color: var(--accent-color);
+    transition: var(--transition-ms);
+}
+
+.modal-btn-ja:hover {
+    width: 129px;
+    height: 45px;
+    font: 400 20px var(--font-family);
+    text-align: center;
+    color: var(--accent-color);
+    border-radius: 10px;
+    background-color: var(--bg-color);
+    transition: var(--transition-ms);
+    border: 1px solid var(--accent-color);
+}
+
 
 
 
