@@ -274,13 +274,13 @@
 
 .block-2023-art-dic {
     font: 400 15px var(--font-family);
-    margin-bottom: 44px;
+    margin-bottom: 60px;
 }
 
 @media (min-width:768px) {
     .block-2023-art-dic {
         font: 400 20px var(--font-family);
-        margin-bottom: 60px;
+        margin-bottom: 100px;
     }
 }
 
